@@ -66,8 +66,8 @@ body {
     justify-items: center;
     align-items: center;
     justify-self: center;
-    margin-top: 40px;
-    margin-left: 0px;
+/*     margin-top: 40px;
+    margin-left: 0px; */
 }
 .navbar__menu a{
     font-family: Helvetica;
