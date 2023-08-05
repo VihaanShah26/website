@@ -67,7 +67,7 @@ body {
     align-items: center;
     justify-self: center;
     padding-top: 3vh;
-/*     margin-top: 40px;
+    /* margin-top: 40px;
     margin-left: 0px; */
 }
 .navbar__menu a{
@@ -780,4 +780,27 @@ body {
     width: 450px;
     font-family: helvetica;
     font-size: 18px;
+}
+
+.to-top { 
+    position: fixed;
+    top: 87%;
+    left: 93%;
+    text-decoration: none;
+    background: none;
+    text-align: center;
+    font-family: helvetica;
+    font-size: 14px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-image: linear-gradient(to top left, rgb(1,98,255) 0%, rgb(93, 234, 255) 70%);
+    cursor: pointer;
+}
+
+#top { 
+    position: absolute;
+    top: 0vh;
+    left: 0px;
 }
