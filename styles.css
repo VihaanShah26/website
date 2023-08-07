@@ -109,11 +109,20 @@ html {
     color: rgba(87, 153, 239, 0.262);
     /* color: rgba(255, 255, 255, 0.195); */
 }
+.about-container { 
+    display: flex;
+    position: absolute;
+    top: 30%;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
 .about-content {
     width: auto;
     max-width: 600px;
     position: absolute;
-    top: 18vh;
+    /* top: 18vh; */
     left: 45%;
     font-family: helvetica;
     color: rgb(175, 206, 255);
@@ -124,42 +133,30 @@ html {
 }
 .para1{
     color: rgb(175, 206, 255);
-    opacity: 0;
-    animation: fadeIn 2s ease-in-out forwards;
 }
 .para2{
     color: rgb(175, 206, 255);
-    opacity: 0;
-    animation: fadeIn 2s ease-in-out forwards;
-    animation-delay: 0.5s;
 }
 .para3{
     color: rgb(175, 206, 255);
-    opacity: 0;
-    animation: fadeIn 2s ease-in-out forwards;
-    animation-delay: 1s;
 }
 .about-quote {
-    max-width: 600px;
-    position: absolute;
-    top: 63vh;
-    left: 45%;
+    margin-top: 15%;
     font-family: helvetica;
     font-size: 16px;
     color: whitesmoke;
     text-align: justify;
-    opacity: 0;
-    animation: fadeIn 2s ease-in-out forwards;
-    animation-delay: 1.5s;
 }
 .image-container img{
-    position: absolute;
-    top: 18vh;
-    left: 5%;
+    position: relative;
+    top: -9vh;
+    left: 12%;
+    padding-right: 5%;
 }
 
 
 /* Education Page CSS */
+
 /* .education {
     position: absolute;
     top: 200vh;
