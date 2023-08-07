@@ -751,14 +751,15 @@ html {
     position: absolute;
     top: 600vh;
     left: 0px;
-    height: 25vh;
+    height: 30vh;
     width: 100%;
     font-family: helvetica;
+    border-top: 1px solid white;
 }
 .contact-container {
     font-size: 18px;
     position: absolute;
-    left: 70%;
+    left: 65%;
     top: 50%;
     transform: translate(0%, -50%);
     line-height: 30px;
@@ -793,6 +794,9 @@ html {
     width: 450px;
     font-family: helvetica;
     font-size: 18px;
+}
+.collaborate { 
+    color: orange;
 }
 
 .to-top { 
