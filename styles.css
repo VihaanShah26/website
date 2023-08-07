@@ -110,9 +110,10 @@ html {
     /* color: rgba(255, 255, 255, 0.195); */
 }
 .about-container { 
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     position: absolute;
-    top: 30%;
+    top: 20%;
     align-items: center;
     justify-content: space-between;
     text-align: center;
@@ -121,9 +122,10 @@ html {
 .about-content {
     width: auto;
     max-width: 600px;
-    position: absolute;
-    /* top: 18vh; */
-    left: 45%;
+    position: relative;
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%, -50%);
     font-family: helvetica;
     color: rgb(175, 206, 255);
     font-size: 18px;
@@ -150,8 +152,9 @@ html {
 .image-container img{
     position: relative;
     top: -9vh;
-    left: 12%;
-    padding-right: 5%;
+    left: 30%;
+    transform: translate(-50%, 0%);
+    /* padding-right: 5%; */
 }
 
 
