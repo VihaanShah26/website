@@ -27,7 +27,7 @@ html {
 body {
     background-image: url("images/bg10.jpeg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:cover;
 }
 
 .home{
@@ -57,7 +57,7 @@ body {
 }
 
 .navbar {
-    margin: 0 10px;
+    margin: auto 10px;
 }
 .navbar__menu {
     display: flex;
@@ -87,6 +87,7 @@ body {
     top: 100vh;
     left: 0;
     background: linear-gradient(to bottom right, rgb(10, 130, 230) 0%, black 50%);
+    background-size: cover;
     height: 100vh;
     width: 100%;
 }
@@ -102,6 +103,7 @@ body {
     /* color: rgba(255, 255, 255, 0.195); */
 }
 .about-content {
+    width: auto;
     max-width: 600px;
     position: absolute;
     top: 18vh;
@@ -172,7 +174,7 @@ body {
     left: 0;
     height: 100vh;
     background-image: url("images/bg12.png");
-    background-size: 100%;
+    background-size: cover;
     object-fit: cover;
     font-family: helvetica;
 }
@@ -276,7 +278,7 @@ body {
     top: 300vh;
     left: 0px;
     background-image: url("images/bg22.avif");
-    background-size:100%;
+    background-size:cover;
     object-fit: cover;
     font-family: helvetica;
     font-size: 20px;
@@ -491,7 +493,7 @@ body {
     top: 400vh;
     left: 0px;
     background-image: url("images/bg8.png");
-    background-size:100%;
+    background-size:cover;
     object-fit: fit;
 }
 
@@ -563,7 +565,7 @@ body {
     top: 500vh;
     left: 0px;
     background-image: url("images/bg6.jpeg");
-    background-size:100%;
+    background-size:cover;
     object-fit: cover;
 }
 
