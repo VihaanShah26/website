@@ -144,8 +144,8 @@ openShooting.addEventListener('click', () => {
     closeCard(nurcBox)
     closeCard(ktpBox)
     closeCard(frcBox)
-    closeCard(shootingBox)
-    openCard(asmeBox)
+    closeCard(asmeBox)
+    openCard(shootingBox)
 })
 // For closing the asme information card 
 closeButton_shooting.addEventListener('click', () => { 
