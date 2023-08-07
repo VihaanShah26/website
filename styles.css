@@ -103,7 +103,7 @@ html {
     font-size: 50px;
     position: absolute;
     top: -5vh;
-    left: 45%;
+    left: 48%;
 }
 .about-title h2 {
     color: rgba(87, 153, 239, 0.262);
@@ -112,19 +112,23 @@ html {
 .about-container { 
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 5%;
     position: absolute;
     top: 20%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
     text-align: center;
     width: 100%;
+    margin: 10px 30px;
 }
 .about-content {
     width: auto;
     max-width: 600px;
     position: relative;
     top: 50%;
-    left: 32%;
+    left: 25%;
     transform: translate(-50%, -50%);
     font-family: helvetica;
     color: rgb(175, 206, 255);
@@ -152,7 +156,7 @@ html {
 .image-container img{
     position: relative;
     top: -9vh;
-    left: 30%;
+    left: 40%;
     transform: translate(-50%, 0%);
     /* padding-right: 5%; */
 }
