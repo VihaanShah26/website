@@ -1,6 +1,6 @@
 # Website
 
-[vihaanshah.co.in](url)
+http://vihaanshah.co.in/
 
 This is a website describing my educational background, interests, passions and past experience.
 
